@@ -43,13 +43,15 @@ We reproduce the Sherbet model, link of paper: https://arxiv.org/pdf/2106.04751.
 *sherbet_b: removing hyperbolic embedding part in pretrain
 
 
-## how to run 
+## How to run 
 ```
 python data_preprocess.py
 python run_hyperbolic_embedding.py
 python main.py
-
 ```
 
 
-
+## Citation
+```
+Lu, Chang & Reddy, Chandan & Ning, Yue. (2021). Self-Supervised Graph Learning With Hyperbolic Embedding for Temporal Health Event Prediction. IEEE Transactions on Cybernetics. PP. 1-13. 10.1109/TCYB.2021.3109881. 
+```
