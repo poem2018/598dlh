@@ -13,7 +13,7 @@ We reproduce the Sherbet model, link of paper: https://arxiv.org/pdf/2106.04751.
 
 ![results](https://github.com/poem2018/598dlh/blob/main/pics/model_pic.png)
 
-## Results
+## Reproduced Results
 
 ### MIMIC-III
     for Heart Failure task:
@@ -38,6 +38,18 @@ We reproduce the Sherbet model, link of paper: https://arxiv.org/pdf/2106.04751.
     | ------------ | ----------------- | ------------------ | --------------------- |
     | sherbet_a    | 1                 | 3                  |                       |
 
+*sherbet_a: follow the origin parameters provided in paper: Sherbet with self-supervised learning and hierarchical prediction, and pretrain with hyperbolic embedding. 
+
+*sherbet_b: removing hyperbolic embedding part in pretrain
+
+
+## how to run 
+'''
+python data_preprocess.py
+python run_hyperbolic_embedding.py
+python main.py
+
+'''
 
 
 
