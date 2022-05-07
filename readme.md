@@ -11,11 +11,11 @@ We reproduce the Sherbet model, link of paper: https://arxiv.org/pdf/2106.04751.
 
 ## Model structure
 
-![results](http://jacklovespictures.oss-cn-beijing.aliyuncs.com/jacklovespictures/2022-04-27-001227.png)
+![results](https://github.com/poem2018/598dlh/blob/main/pics/model_pic.png)
 
 ## Results
 
-MIMIC-III
+### MIMIC-III
     for Heart Failure task:
 
     |               | F1                 | AUC score            | 
@@ -28,15 +28,15 @@ MIMIC-III
 
     for diagnosis task
     |             | recall@10         | recall@20          |  F1                    |
-    | ------------| ----------------- | ------------------ | -----------------------|
+    | ------------| ----------------- | ------------------ | ---------------------- |
     | sherbet_a   | 0.3920123         | 0.40286424         |   0.2410660363641088   |
     | sherbet_b   | 0.3884631         | 0.40051201         |   0.23019432399405035  |
 
-eICU dataset
+### eICU dataset
     for diagnosis task
     |              | recall@10         | recall@20          |  F1                   |
-    | ------------ | ----------------- | ------------------ | ----------------------|
-    | sherbet_a    | xxxxxxxxxxxxxxxxx | 3                  |         |
+    | ------------ | ----------------- | ------------------ | --------------------- |
+    | sherbet_a    | 1                 | 3                  |                       |
 
 
 
