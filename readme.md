@@ -13,6 +13,12 @@ We reproduce the Sherbet model, link of paper: https://arxiv.org/pdf/2106.04751.
 
 ![results](https://github.com/poem2018/598dlh/blob/main/pics/model_pic.png)
 
+## Implementation
+
+We have done the experiments in the below table
+
+![results](https://github.com/poem2018/598dlh/blob/main/pics/train_table.png)
+
 ## Reproduced Results
 
 ### MIMIC-III
@@ -36,7 +42,7 @@ We reproduce the Sherbet model, link of paper: https://arxiv.org/pdf/2106.04751.
     for diagnosis task
     |              | recall@10         | recall@20          |  F1                   |
     | ------------ | ----------------- | ------------------ | --------------------- |
-    | sherbet_a    | 1                 | 3                  |                       |
+    | sherbet_a    | 0.78273214        | 0.82769583         | 0.6155913694704069    |
 
 *sherbet_a: follow the origin parameters provided in paper: Sherbet with self-supervised learning and hierarchical prediction, and pretrain with hyperbolic embedding. 
 
