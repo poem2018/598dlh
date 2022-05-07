@@ -43,6 +43,12 @@ We reproduce the Sherbet model, link of paper: https://arxiv.org/pdf/2106.04751.
 *sherbet_b: removing hyperbolic embedding part in pretrain
 
 
+### visualize
+We visualize our training result in pictures like below, all the score is get from validation data.
+Please refer to the *output_res* folder if you want to see other visualized results
+
+![results](https://github.com/poem2018/598dlh/blob/main/output_res/mimic_hf_self_hi_hy_08.png)
+
 ## How to run 
 ```
 python data_preprocess.py
