@@ -44,12 +44,12 @@ We reproduce the Sherbet model, link of paper: https://arxiv.org/pdf/2106.04751.
 
 
 ## how to run 
-'''
+```
 python data_preprocess.py
 python run_hyperbolic_embedding.py
 python main.py
 
-'''
+```
 
 
 
