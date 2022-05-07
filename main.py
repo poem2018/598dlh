@@ -1,7 +1,7 @@
 import os
 
 from model import Sherbet, SherbetFeature, medical_codes_loss
-from utils import EvaluateCodesCallBack, EvaluateHFCallBack
+from utils import evalCode, evalHF
 
 import random
 import _pickle as pickle
@@ -198,10 +198,10 @@ else:
     
     if task_m_h =='m':
         loss_fn =  medical_codes_loss
-        test_callback = EvaluateCodesCallBack(test_codes_gen, test_y)
+        test_callback = evalCode(test_codes_gen, test_y)
     else:
         loss_fn = 'binary_crossentropy'
-        test_callback = EvaluateHFCallBack(test_codes_gen, test_y)
+        test_callback = evalHF(test_codes_gen, test_y)
         
     model_conf = {
         'use_hierarchical_decoder': False,

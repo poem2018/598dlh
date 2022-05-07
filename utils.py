@@ -119,7 +119,7 @@ class EvaluateCallBack(Callback):
         raise NotImplementedError
 
 
-class EvaluateCodesCallBack(EvaluateCallBack):
+class evalCode(EvaluateCallBack):
     def on_epoch_end(self, epoch, logs=None):
         step_size = len(self.data_gen)
         preds = []
@@ -139,7 +139,7 @@ class EvaluateCodesCallBack(EvaluateCallBack):
         print('\t', 'f1_score:', f1_score, '\t', 'top_k_recall:', recall)
 
 
-class EvaluateHFCallBack(EvaluateCallBack):
+class evalHF(EvaluateCallBack):
     def on_epoch_end(self, epoch, logs=None):
         step_size = len(self.data_gen)
         print(step_size)
